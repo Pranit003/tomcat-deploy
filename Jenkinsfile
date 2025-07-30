@@ -5,7 +5,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'tomcat-sample-app'
         CONTAINER_NAME = 'tomcat-app'
-        PORT_MAPPING = '9191:8090' // Changed from 9090 to 9191 to avoid conflict
+        PORT_MAPPING = '9191:8080' // Changed from 9090 to 9191 to avoid conflict
     }
 
     stages {
